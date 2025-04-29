@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test reCAPTCHA v2</title>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+  <h2>Test Form with reCAPTCHA v2</h2>
+  <form action="?" method="POST">
+    <input type="text" name="name" placeholder="Enter your name" required><br><br>
+    
+    <!-- reCAPTCHA box -->
+    <div class="g-recaptcha" data-sitekey="6LeyYCgrAAAAABdX0RzVxyUidBjGfdKW8sbjiQW5"></div><br>
+    
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
